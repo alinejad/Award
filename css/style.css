@@ -114,7 +114,7 @@ footer {
 
 header {
   border: 1px dashed red;
-  width: 1423px;
+  width: 1184px;
   margin: 0px auto; }
   header #logo {
     width: 288px;
@@ -141,7 +141,14 @@ header {
       display: inline-block;
       color: #444; }
     header nav .search {
-      float: right; }
+      float: right;
+      margin-top: -100px; }
+  header .menutop ul {
+    padding-top: 30px; }
+    header .menutop ul li {
+      display: inline; }
+  header .submit {
+    list-style: none; }
 
 body {
   font-family: 'Droid Sans', sans-serif;

@@ -1,6 +1,6 @@
 header {
   border: 1px dashed red;
-  width: 1423px;
+  width: 1184px;;
   margin: 0px auto;
 
   #logo {
@@ -40,8 +40,21 @@ header {
 
     .search {
       float: right;
+      margin-top: -100px;
     }
 
+  }
+
+  .menutop ul {
+    padding-top: 30px;
+
+    li {
+    display: inline;
+    }
+  }
+
+  .submit {
+    list-style: none;
   }
 
 }

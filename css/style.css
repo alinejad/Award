@@ -1,4 +1,45 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+.content .picture {
+  float: left; }
+  .content .picture p em {
+    color: #2ea08a; }
+.content .pies {
+  float: left; }
+.content .legend li {
+  float: left;
+  margin-right: 4em;
+  color: #aaaaaa;
+  font-size: .65em;
+  list-style: none; }
+  .content .legend li.red:before {
+    /* Unicode large bullet symbol */
+    content: '\2B24 ';
+    /* Bullet color and size */
+    color: #e56a50;
+    padding-right: 0.5em;
+    font-size: 1em; }
+  .content .legend li.yellow:before {
+    /* Unicode large bullet symbol */
+    content: '\2B24 ';
+    /* Bullet color and size */
+    color: #eed077;
+    padding-right: 0.5em;
+    font-size: 1em; }
+  .content .legend li.green:before {
+    /* Unicode large bullet symbol */
+    content: '\2B24 ';
+    /* Bullet color and size */
+    color: #2ea08a;
+    padding-right: 0.5em;
+    font-size: 1em; }
+  .content .legend li.blue:before {
+    /* Unicode large bullet symbol */
+    content: '\2B24 ';
+    /* Bullet color and size */
+    color: #009aa9;
+    padding-right: 0.5em;
+    font-size: 1em; }
+
 body {
   font-family: 'Droid Sans', sans-serif;
   background-color: #e4e6e5; }

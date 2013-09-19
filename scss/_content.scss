@@ -27,23 +27,25 @@
 
   table {
     font-size: .75em;
+    line-height: 2.6em;
 
     th {
       font-weight: normal;
       text-align: left;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
     }
     tr:not(:first-child) {
       border-top: 1px solid lightgray;
     }
     td {
-      padding: 0 70px 0 0;
+      padding: 0 60px 0 0;
       &:last-child {
         padding-right: 0}
     }
 
     ul{
       padding: 0;
+      margin: 0;
     }
     li {
       display: inline-block;
@@ -78,12 +80,22 @@
     }
   }
 
+.clear {
+  clear:both;
+  float: none;
+}
 
 
+  .legend {
+    width: 410px;
+    padding-left: 745px;
 
-  .legend li {
+    ul {
+      padding-left: 0
+    }
+    li {
     float: left;
-    margin-right: 4em;
+    margin-left: 4em;
     color: $gray;
     font-size: .65em;
     list-style: none;
@@ -111,6 +123,7 @@
         @include colorbullet($blue)
       }
     }
+  }
 
   }
 

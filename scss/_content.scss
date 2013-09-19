@@ -21,9 +21,31 @@
 
   .pies {
     float: left;
+    margin: 0 30px;
   }
 
+  table {
+    font-size: .75em;
 
+    th {
+      font-weight: normal;
+      text-align: left;
+      padding-bottom: 20px;
+    }
+    tr:not(:first-child) {
+      border-top: 1px solid $gray;
+    }
+    td {
+      padding: 10px 70px 10px 0;
+    }
+    li {
+      float: left;
+      list-style: none;
+      background-color: white;
+      margin-left: 5px;
+
+    }
+  }
 
 
 

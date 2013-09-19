@@ -1,0 +1,136 @@
+@mixin colorbullet($color) {
+  /* Unicode large bullet symbol */
+  content: '\2B24 ';
+  /* Bullet color and size */
+  color: $color;
+  padding-right: 0.5em;
+  font-size: 1em;
+}
+
+
+
+.content {
+
+  .picture {
+
+    p em {
+      color: $green;
+    }
+
+    float: left;
+  }
+
+  .pies {
+    float: left;
+    margin: 0 30px;
+  }
+
+  table {
+    font-size: .75em;
+    line-height: 2.6em;
+
+    th {
+      font-weight: normal;
+      text-align: left;
+      padding-bottom: 10px;
+    }
+    tr:not(:first-child) {
+      border-top: 1px solid lightgray;
+    }
+    td {
+      padding: 0 60px 0 0;
+      &:last-child {
+        padding-right: 0
+      }
+
+      &:nth-child(2) {
+        color: $green;
+        font-style: italic;
+      }
+    }
+
+    ul{
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      display: inline-block;
+      list-style: none;
+      margin-left: 1px;
+      width: 16px;
+      height: 16px;
+      line-height: 17px;
+      text-align: center;
+      font-size: .8em;
+      color: #fff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      
+      &:nth-child(1) {
+        background-color: $red;
+      }
+
+      &:nth-child(2) {
+        background-color: $yellow;
+      }
+
+      &:nth-child(3) {
+        background-color: $green;
+      }
+
+      &:nth-child(4) {
+        background-color: $blue;
+      }
+
+    }
+  }
+
+.clear {
+  clear:both;
+  float: none;
+}
+
+
+  .legend {
+    width: 410px;
+    padding-left: 745px;
+
+    ul {
+      padding-left: 0
+    }
+    li {
+    float: left;
+    margin-left: 4em;
+    color: $gray;
+    font-size: .65em;
+    list-style: none;
+
+    &.red {
+      &:before {
+        @include colorbullet($red)
+      }
+    }
+
+    &.yellow {
+      &:before {
+        @include colorbullet($yellow)
+      }
+    }
+    
+    &.green {
+      &:before {
+        @include colorbullet($green)
+      }
+    }
+
+    &.blue {
+      &:before {
+        @include colorbullet($blue)
+      }
+    }
+  }
+
+  }
+
+}

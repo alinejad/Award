@@ -89,6 +89,29 @@
       padding-right: 0.5em;
       font-size: 1em; }
 
+/* footer Ali*/
+footer {
+  width: 964px;
+  height: 256px;
+  margin: auto;
+  background-color: #e4e6e5;
+  padding-top: 40px;
+  /* End Ali footer*/ }
+  footer div {
+    width: 218px;
+    height: 216px; }
+  footer div img {
+    height: 136px;
+    width: 218px; }
+  footer .container div {
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px; }
+  footer span {
+    font-size: 10px;
+    color: #2ea08a; }
+
 header {
   border: 1px dashed red;
   width: 1423px;

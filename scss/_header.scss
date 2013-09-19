@@ -1,55 +1,60 @@
-header
-{
+header {
   border: 1px dashed red;
-  width: 1423px;
+  width: 1184px;;
   margin: 0px auto;
-}
 
-#logo
-{
-  width: 288px;
-  height: 56px;
-  background: url(../Images/logo.png);
-  float: left;
-  margin-top: 35px;
-}
+  #logo {
+    width: 288px;
+    height: 56px;
+    background: url(../Images/logo.png);
+    float: left;
+    margin-top: 35px;
+  }
 
-h1
-{
+  h1 {
   font-size: $finefont;
   margin-top: 65px;
-}
-nav
-{
-  position: relative;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  font-size: 1.2em;
-  border-bottom: 1px solid #b6b8b7;
-  border: 1px dashed red;
-}
-.login
-{
-  float: right;
-  margin-top: -200px;
-  border: 1px dashed red;
-}
-.top
-{
-  display: inline-block;
-  border: 1px dashed red;
-}
+  }
+  
+  .login {
+    float: right;
+    margin-top: -200px;
+  }
 
+  nav {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #b6b8b7;
 
+    .top {
+      display: inline-block;
+    }
 
-.mid
-{
-  display: inline-block;
-  border: 1px dashed red;
-}
-.search
-{
-  float: right;
-  border: 1px dashed red;
+    .mid {
+      display: inline-block;
+      color: #444;
+    }
+
+    .search {
+      float: right;
+      margin-top: -100px;
+    }
+
+  }
+
+  .menutop ul {
+    padding-top: 30px;
+
+    li {
+    display: inline;
+    }
+  }
+
+  .submit {
+    list-style: none;
+  }
+
 }

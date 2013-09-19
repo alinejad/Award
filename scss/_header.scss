@@ -11,43 +11,47 @@ header
     background: url(../Images/logo.png);
     float: left;
     margin-top: 35px;
-  }
+    {
 
-  h1
-  {
-    font-size: $finefont;
-    margin-top: 65px;
-  }
-  nav
-  {
-    position: relative;
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    font-size: 1.2em;
-    border-bottom: 1px solid #b6b8b7;
-  }
-}
+      h1
+      {
+        font-size: $finefont;
+        margin-top: 65px;
+        {
+          .search
+          {
+            float: right;
+            {
+              nav
+              {
+                position: relative;
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                font-size: 1.2em;
+                border-bottom: 1px solid #b6b8b7;
+                {
+                  .login
+                  {
+                    float: right;
+                    margin-top: -200px;
+                    {
+                     .top
+                     {
+                      display: inline-block;
 
-.mid
-  {
-    display: inline-block;
-    color: #444;
-  }
+                      {
 
-.top
-  {
-    display: inline-block;
 
-  }
 
-.search
-  {
-    float: right;
-   }
+                        .mid
+                        {
+                          display: inline-block;
+                          color: #444;
+                        }
 
-.login
-  {
-    float: right;
-    margin-top: -200px;
-  }
+                      }
+                    }
+                  }
+                }
+              }

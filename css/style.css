@@ -125,6 +125,9 @@ header {
   header h1 {
     font-size: 12px;
     margin-top: 65px; }
+  header .login {
+    float: right;
+    margin-top: -200px; }
   header nav {
     position: relative;
     width: 100%;
@@ -132,20 +135,13 @@ header {
     line-height: 40px;
     font-size: 1.2em;
     border-bottom: 1px solid #b6b8b7; }
-
-.mid {
-  display: inline-block;
-  color: #444; }
-
-.top {
-  display: inline-block; }
-
-.search {
-  float: right; }
-
-.login {
-  float: right;
-  margin-top: -200px; }
+    header nav .top {
+      display: inline-block; }
+    header nav .mid {
+      display: inline-block;
+      color: #444; }
+    header nav .search {
+      float: right; }
 
 body {
   font-family: 'Droid Sans', sans-serif;

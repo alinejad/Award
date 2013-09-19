@@ -40,7 +40,13 @@
     td {
       padding: 0 60px 0 0;
       &:last-child {
-        padding-right: 0}
+        padding-right: 0
+      }
+
+      &:nth-child(2) {
+        color: $green;
+        font-style: italic;
+      }
     }
 
     ul{

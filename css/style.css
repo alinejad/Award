@@ -19,6 +19,9 @@
     padding: 0 60px 0 0; }
     .content table td:last-child {
       padding-right: 0; }
+    .content table td:nth-child(2) {
+      color: #2ea08a;
+      font-style: italic; }
   .content table ul {
     padding: 0;
     margin: 0; }
